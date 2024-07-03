@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        .container{
+            height: 50vh;
+            width: 50vw;
+            /* border: 2px solid red; */
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+    </div>
+</body>
+<script>
+    let image=document.createElement("img")
+    let container=document.querySelector(".container")
+    image.src="https://5.imimg.com/data5/SELLER/Default/2021/6/GE/IS/EH/14583681/desktop-computer.jpg"
+    image.style.width="50%"
+    container.appendChild(image);
+    </script>
+</html>
